@@ -1,3 +1,5 @@
 Welcome to mgit
 this is second txt
 
+developer1 is working on file
+Hello from developer1
