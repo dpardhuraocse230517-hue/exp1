@@ -27,7 +27,6 @@ function validateForm() {
 
     if (dob && address && phno && email && photo && signature) {
         const firstName = document.getElementById('firstname').value;
-        const lastName = document.getElementById('lastname').value;
         const fatherName = document.getElementById('fathername').value;
         const motherName = document.getElementById('mothername').value;
         const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
@@ -37,7 +36,6 @@ function validateForm() {
         const win = window.open('', '_blank');
         win.document.write(`<h1>Submitted Details</h1>
             <p><strong>First Name:</strong> ${firstName}</p>
-            <p><strong>Last Name:</strong> ${lastName}</p>
             <p><strong>Father's Name:</strong> ${fatherName}</p>
             <p><strong>Mother's Name:</strong> ${motherName}</p>
             <p><strong>DOB:</strong> ${dob}</p>
