@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="myContainer">
+    <form id="myForm">
+<label for='myform'
+
+<label for="firstname">First Name:</label>
+      <input type="text" id="firstname" required><br>
+
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" required><br>
+
+      <label for="fathername">Father's Name:</label>
+      <input type="text" id="fathername" required><br>
+
+      <label for="mothername">Mother's Name:</label>
+      <input type="text" id="mothername" required><br>
+
+      <label for="dob">DOB:</label>
+      <input type="date" id="dob"><br>
+      <span id="doberror" class="error"></span>
+
+  <p>Gender:</p>
+      <input type="radio" name="gender" id="male" value="Male" required>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="Female">
+      <label for="female">Female</label><br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" rows="3"></textarea><br>
+      <span id="addresserror" class="error"></span><br>
+
+<p>Education Details:</p>
+      <label for="tenth">10th Details:</label>
+      <input type="text" id="tenth" required><br>
+
+      <label for="twelve">12th Details:</label>
+      <input type="text" id="twelve" required><br><br>
+
+      <label for="phno">Phone Number:</label>
+      <input type="text" id="phno"><br>
+      <span id="phoneerror" class="error"></span><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email"><br>
+      <span id="emailerror" class="error"></span><br>
+
+<label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" accept="image/*" required><br>
+
+      <label for="signature">Upload Signature:</label>
+      <input type="file" id="signature" accept="image/*" required><br>
+
+      <input type="submit" id="submitBtn" value="Submit">
+      <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
